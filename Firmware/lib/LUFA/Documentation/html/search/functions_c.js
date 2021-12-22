@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['ringbuffer_5fgetcount_0',['RingBuffer_GetCount',['../group___group___ring_buff.html#gac31783658cb2cafe665acf20a0b08e4d',1,'RingBuffer.h']]],
+  ['ringbuffer_5fgetfreecount_1',['RingBuffer_GetFreeCount',['../group___group___ring_buff.html#gae25ef0c824a9471b41ee4b7782ab6f0d',1,'RingBuffer.h']]],
+  ['ringbuffer_5finitbuffer_2',['RingBuffer_InitBuffer',['../group___group___ring_buff.html#gadf2242fb2c0faf4454161295746d08a3',1,'RingBuffer.h']]],
+  ['ringbuffer_5finsert_3',['RingBuffer_Insert',['../group___group___ring_buff.html#ga950644ec79b4c11af579536013cb43d0',1,'RingBuffer.h']]],
+  ['ringbuffer_5fisempty_4',['RingBuffer_IsEmpty',['../group___group___ring_buff.html#gada9af78bf38ade0a6ee35e0bfb5d4048',1,'RingBuffer.h']]],
+  ['ringbuffer_5fisfull_5',['RingBuffer_IsFull',['../group___group___ring_buff.html#ga49bebfe7cd234d20ebe58e4865a3a17f',1,'RingBuffer.h']]],
+  ['ringbuffer_5fpeek_6',['RingBuffer_Peek',['../group___group___ring_buff.html#ga80505025374df687c6318d96de7f9a17',1,'RingBuffer.h']]],
+  ['ringbuffer_5fremove_7',['RingBuffer_Remove',['../group___group___ring_buff.html#gabfa668c42badd351d067f44801ae7683',1,'RingBuffer.h']]],
+  ['rndis_5fdevice_5fconfigureendpoints_8',['RNDIS_Device_ConfigureEndpoints',['../group___group___u_s_b_class_r_n_d_i_s_device.html#ga09a72fcd7c235b3b646ec8f78799f60c',1,'RNDISClassDevice.h']]],
+  ['rndis_5fdevice_5fispacketreceived_9',['RNDIS_Device_IsPacketReceived',['../group___group___u_s_b_class_r_n_d_i_s_device.html#gaf4bab79aa4e0afb135165342b231d191',1,'RNDISClassDevice.h']]],
+  ['rndis_5fdevice_5fprocesscontrolrequest_10',['RNDIS_Device_ProcessControlRequest',['../group___group___u_s_b_class_r_n_d_i_s_device.html#gaee4c6620f9ae8d7b500f8a681fd958f8',1,'RNDISClassDevice.h']]],
+  ['rndis_5fdevice_5freadpacket_11',['RNDIS_Device_ReadPacket',['../group___group___u_s_b_class_r_n_d_i_s_device.html#ga0c50ed520703127dd9faf1f2843e5656',1,'RNDISClassDevice.h']]],
+  ['rndis_5fdevice_5fsendpacket_12',['RNDIS_Device_SendPacket',['../group___group___u_s_b_class_r_n_d_i_s_device.html#gad808bcd337d6625a6718146f4449d15f',1,'RNDISClassDevice.h']]],
+  ['rndis_5fdevice_5fusbtask_13',['RNDIS_Device_USBTask',['../group___group___u_s_b_class_r_n_d_i_s_device.html#gadf9171fb6e024a16974eec3aa4cf8b2e',1,'RNDISClassDevice.h']]],
+  ['rndis_5fhost_5fconfigurepipes_14',['RNDIS_Host_ConfigurePipes',['../group___group___u_s_b_class_r_n_d_i_s_host.html#ga791b5c37809c872916e5ef8ca3609959',1,'RNDISClassHost.h']]],
+  ['rndis_5fhost_5finitializedevice_15',['RNDIS_Host_InitializeDevice',['../group___group___u_s_b_class_r_n_d_i_s_host.html#ga66b457d60fb6eb6b3c538edb88e3b21b',1,'RNDISClassHost.h']]],
+  ['rndis_5fhost_5fispacketreceived_16',['RNDIS_Host_IsPacketReceived',['../group___group___u_s_b_class_r_n_d_i_s_host.html#ga9fdea2962439437e54de2c7296f6036e',1,'RNDISClassHost.h']]],
+  ['rndis_5fhost_5fqueryrndisproperty_17',['RNDIS_Host_QueryRNDISProperty',['../group___group___u_s_b_class_r_n_d_i_s_host.html#ga5fb09a794f1cd71bb485793784214bf4',1,'RNDISClassHost.h']]],
+  ['rndis_5fhost_5freadpacket_18',['RNDIS_Host_ReadPacket',['../group___group___u_s_b_class_r_n_d_i_s_host.html#ga30c347901e9f354bcb2db62c3a65c687',1,'RNDISClassHost.h']]],
+  ['rndis_5fhost_5fsendkeepalive_19',['RNDIS_Host_SendKeepAlive',['../group___group___u_s_b_class_r_n_d_i_s_host.html#ga7fc51d699404d18fe9c19272a24a2712',1,'RNDISClassHost.h']]],
+  ['rndis_5fhost_5fsendpacket_20',['RNDIS_Host_SendPacket',['../group___group___u_s_b_class_r_n_d_i_s_host.html#gadcc518d1643b282dfe123c97c6f521aa',1,'RNDISClassHost.h']]],
+  ['rndis_5fhost_5fsetrndisproperty_21',['RNDIS_Host_SetRNDISProperty',['../group___group___u_s_b_class_r_n_d_i_s_host.html#ga76e6a21a2c86a56efbe0923f334715c2',1,'RNDISClassHost.h']]],
+  ['rndis_5fhost_5fusbtask_22',['RNDIS_Host_USBTask',['../group___group___u_s_b_class_r_n_d_i_s_host.html#gaf4eb6642d8e3b3341a3919e7dc28d252',1,'RNDISClassHost.h']]]
+];
