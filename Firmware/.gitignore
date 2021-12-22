@@ -1,0 +1,16 @@
+# VSCode files
+.vscode/
+
+# Build files
+*.hex
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+*.lss
+*.sym
+*.a
+
