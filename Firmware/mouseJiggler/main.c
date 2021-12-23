@@ -28,6 +28,8 @@
   this software.
 */
 
+#define OMEG 0.628
+
 /** \file
  *
  *  Main source file for the Mouse demo. This file contains the main tasks of
@@ -73,7 +75,6 @@ int main(void)
 	for (;;)
 	{
 		HID_Device_USBTask(&Mouse_HID_Interface);
-		//USB_USBTask();
 	}
 }
 
@@ -175,12 +176,16 @@ bool CALLBACK_HID_Device_CreateHIDReport(USB_ClassInfo_HID_Device_t* const HIDIn
 
 	if (active)
 	{
-		MouseReport->Y=-1;
+		static double angle = 0;
+		MouseReport->X = 10*cos(OMEG*angle);
+		MouseReport->Y = 10*sin(OMEG*angle);
+		angle += 0.05;
+
 		LEDs_ChangeLEDs(LEDMASK_ACTIVE, LEDMASK_ACTIVE);
 	} else {
 		LEDs_ChangeLEDs(LEDMASK_ACTIVE, 0);
 	}
-	
+
 	*ReportSize = sizeof(USB_MouseReport_Data_t);
 	return true;
 }
