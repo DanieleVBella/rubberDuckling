@@ -70,10 +70,10 @@
 	/* Public Interface - May be used in end-application: */
 		/* Macros: */
 			/** LED mask for the first LED on the board. */
-			#define LEDS_LED1        (1 << 6)
+			#define LEDS_LED1        (1 << 7)
 
 			/** LED mask for the second LED on the board. */
-			#define LEDS_LED2        (1 << 7)
+			#define LEDS_LED2        (1 << 6)
 
 			/** LED mask for all the LEDs on the board. */
 			#define LEDS_ALL_LEDS    (LEDS_LED1 | LEDS_LED2)
