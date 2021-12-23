@@ -73,7 +73,7 @@ int main(void)
 	for (;;)
 	{
 		HID_Device_USBTask(&Mouse_HID_Interface);
-		USB_USBTask();
+		//USB_USBTask();
 	}
 }
 
@@ -159,12 +159,28 @@ bool CALLBACK_HID_Device_CreateHIDReport(USB_ClassInfo_HID_Device_t* const HIDIn
 {
 	USB_MouseReport_Data_t* MouseReport = (USB_MouseReport_Data_t*)ReportData;
 
-	uint8_t JoyStatus_LCL    = Joystick_GetStatus();
+	static bool buttonDepressed = true;
+	static bool active = false;
+
 	uint8_t ButtonStatus_LCL = Buttons_GetStatus();
 
-	if (ButtonStatus_LCL)
-	  MouseReport->Y = -1;
+	if (ButtonStatus_LCL && buttonDepressed) {
+		active ^=1; //toggle the bool
+		buttonDepressed = false;
 
+	} else if (!ButtonStatus_LCL)
+	{
+		buttonDepressed = true;
+	}
+
+	if (active)
+	{
+		MouseReport->Y=-1;
+		LEDs_ChangeLEDs(LEDMASK_ACTIVE, LEDMASK_ACTIVE);
+	} else {
+		LEDs_ChangeLEDs(LEDMASK_ACTIVE, 0);
+	}
+	
 	*ReportSize = sizeof(USB_MouseReport_Data_t);
 	return true;
 }
